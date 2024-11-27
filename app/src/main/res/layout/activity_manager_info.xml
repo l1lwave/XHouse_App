@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/manager_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Менеджер"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/cadetBlue"
+            />
+
+        <TextView
+            android:id="@+id/manager_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manager_info"
+            android:text="@string/manager_name"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/manager_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manager_full_name"
+            android:text="@string/manager_phone"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

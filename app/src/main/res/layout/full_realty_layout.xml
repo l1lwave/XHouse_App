@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/realty_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/realty_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_image"
+            android:text="@string/search_city_hint"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_addres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_city"
+            android:text="@string/realty_addres"
+            android:textSize="22dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_addres"
+            android:text="@string/inputRooms"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_rooms"
+            android:text="@string/inputArea"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_floor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_area"
+            android:text="@string/inputStage"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_floor"
+            android:text="@string/inputAbout"
+            android:textSize="20dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_about"
+            android:textSize="20dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space"
+            android:text="@string/priceRealty"
+            android:textSize="25dp"
+            android:textColor="@color/teal"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

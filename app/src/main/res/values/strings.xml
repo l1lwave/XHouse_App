@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">XHouse</string>
+    <string name="autorisation">Ласково просимо до XHouse</string>
+    <string name="loginb">Log In</string>
+    <string name="signupb">Sign Up</string>
+
+    <string name="lastName">Введіть прізвище</string>
+    <string name="firstName">Введіть ім\'я</string>
+    <string name="middleName">Введіть по-батькові</string>
+    <string name="email">Email</string>
+
+    <string name="phone">Телефон</string>
+    <string name="password">Введіть пароль</string>
+
+    <string name="settings">Налаштування</string>
+    <string name="search_city_hint">Місто</string>
+    <string name="search_rooms_from_hint">Кімнат від</string>
+    <string name="search_rooms_to_hint">до</string>
+    <string name="search_area_from_hint">Площа від</string>
+    <string name="search_area_to_hint">до</string>
+    <string name="search_floor_from_hint">Поверх від</string>
+    <string name="search_floor_to_hint">до</string>
+    <string name="search_price_from_hint">Ціна від</string>
+    <string name="search_price_to_hint">до</string>
+    <string name="search_button">Місто...</string>
+    <string name="search_button_text">Шукати</string>
+
+    <string name="addRealty">Виставити нерухомість</string>
+    <string name="inputCity">Введіть місто</string>
+    <string name="inputAddress">Введіть адресу</string>
+    <string name="inputRooms">Кільк. кімнат</string>
+    <string name="inputArea">Площа</string>
+    <string name="inputStage">Поверх</string>
+    <string name="inputAbout">Опис</string>
+    <string name="add">Додати</string>
+    <string name="priceRealty">Ціна</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_deal">Угоди</string>
+    <string name="menu_add_realty">Додати нерухоміть</string>
+    <string name="menu_settings">Налаштування</string>
+    <string name="menu_logout">Вийти</string>
+    <string name="close_settings">Закрити</string>
+    <string name="save_settings">Зберегти</string>
+    <string name="settings_lastname">Ваше прізвище</string>
+    <string name="settings_firstname">Ваше ім\'я</string>
+    <string name="settings_middlename">Ваше побатькові</string>
+    <string name="settings_phone">Ваш номер телефону</string>
+    <string name="settings_email">Ваш email</string>
+
+    <string name="realry_address">Адреса нерухомості</string>
+    <string name="realty_price">Ціна нерухомості</string>
+    <string name="yourDeals">ВАШІ УГОДИ</string>
+    <string name="realty_addres">Адреса</string>
+    <string name="manager_name">Ім\'я менеджера</string>
+    <string name="manager_phone">Телефон менеджера</string>
+    <string name="connect_manager">Зв\'язатися з менеджером</string>
+    <string name="change_pass">Змінити пароль</string>
+    <string name="input_new_pass">Новий пароль</string>
+    <string name="input_old_pass">Старий пароль</string>
+    <string name="remove_real">Видалити</string>
+    <string name="my_reals">Моя нерухомість</string>>
+
+
+</resources>

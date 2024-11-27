@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/realty_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/realry_address"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/cadetBlue"
+            />
+
+        <ImageView
+            android:id="@+id/realty_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/realty_address"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/realty_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_image"
+            android:text="@string/search_city_hint"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_city"
+            android:text="@string/inputRooms"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/realty_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_rooms"
+            android:text="@string/priceRealty"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/cadetBlue"
+            />
+
+        <Button
+            android:id="@+id/contact_manager_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/realty_price"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/connect_manager"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/cadetBlue"
+            android:padding="10dp"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

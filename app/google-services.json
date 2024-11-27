@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "822843132194",
+    "firebase_url": "https://xhouse-2b8ff-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "xhouse-2b8ff",
+    "storage_bucket": "xhouse-2b8ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822843132194:android:5c1c1833f58d7d776cbd7b",
+        "android_client_info": {
+          "package_name": "com.realty.xhouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EXjXgpJQwK75zD0nU5bO6Yo-Fb0n3P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

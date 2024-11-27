@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/lastNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lastName"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/firstNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/firstName"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/middleNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/middleName"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/phoneField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/passField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/teal"
+            android:textColorHint="@color/cadetBlue"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
